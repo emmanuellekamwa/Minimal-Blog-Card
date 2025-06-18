@@ -37,7 +37,7 @@ body {
 }
 
 .card-content {
-    padding: 1rem 1.25rem;
+    padding: 1rem 1rem 0rem 1rem;
     border-bottom: 1px solid #E5EAF0;
 }
 
@@ -45,14 +45,19 @@ body {
     display: inline-block;
     background-color: #F2EAFD;
     color: #7C19EE;
-    font-size: 0.625rem;
+    font-size: 10px;
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
     font-weight: 700;
-    margin-bottom: 0.75rem;
 }
 
 .body-text {
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 250;
+}
+
+.small-text {
+    font-size: 12px;
+    font-weight: 250;
+    padding: 0.5rem 0rem 0.5rem 1rem;
 }
