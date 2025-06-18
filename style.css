@@ -19,16 +19,17 @@ body {
 .card {
     background-color: #FFFFFF;
     border-radius: 16px;
+    padding: 1rem 1rem 0.5rem 1rem;
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     overflow: hidden;
     max-width: 350px;
-    width: 90%;
 }
 
 .card img {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
 }
 
 .title {
@@ -37,7 +38,7 @@ body {
 }
 
 .card-content {
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0rem 0.1rem;
     border-bottom: 1px solid #E5EAF0;
 }
 
@@ -59,5 +60,5 @@ body {
 .small-text {
     font-size: 12px;
     font-weight: 250;
-    padding: 0.5rem 0rem 0.5rem 1rem;
+    padding: 0.5rem 0rem 0.5rem 0.1rem;
 }
